@@ -1,0 +1,107 @@
+/* Resetting default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting up basic typography */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #FFFFFF;
+  /* Default text color */
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Arial", serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  /* Headings color */
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Styling for navigation */
+.navbar {
+  background-color: #fc3d21;
+  /* Navbar background color */
+  color: #fff;
+  /* Navbar text color */
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for main content */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for background */
+body {
+    background-color: #0b3d91; /* NASA blue color */
+}
+
+/* Footer styling */
+.footer {
+  background-color: #f8f9fa;
+  /* Footer background color */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive layout adjustments */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+/* Styling for links */
+a {
+    color: #fff; /* White color */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
