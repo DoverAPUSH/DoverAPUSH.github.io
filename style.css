@@ -44,13 +44,15 @@ p {
   margin-bottom: 15px;
 }
 
-/* Styling for navigation */
+/* Styling for nav bar */
 .navbar {
   background-color: #fc3d21;
-  /* Navbar background color */
   color: #fff;
-  /* Navbar text color */
   padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar ul {
@@ -76,6 +78,11 @@ p {
   max-width: 960px;
   margin: 0 auto;
   padding: 20px;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
 
 /* Styling for background */
