@@ -2,13 +2,7 @@ html, body{
   height: 100%;
 }
 /* Resetting default browser styles */
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-ol {
+body, h1, h2, h3, p, ul, ol {
   margin: 0;
   padding: 0;
 }
@@ -24,9 +18,7 @@ body {
   /* Default text color */
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-family: "Arial", serif;
   font-weight: bold;
   color: #FFFFFF;
